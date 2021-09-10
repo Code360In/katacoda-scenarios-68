@@ -3,6 +3,13 @@
   "description": "Grundlagen für Software Container",
   "difficulty": "Beginner",
   "time": "10minutes",
+  "assets": {
+    "client": [
+      {
+        "file": "Dockerfile", "target": "/", "chmod": "+x"
+      }
+    ]
+  },
   "details": {
     "steps": [
       {
