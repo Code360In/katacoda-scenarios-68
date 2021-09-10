@@ -36,7 +36,12 @@
       "client": [
         {
           "file": "Dockerfile",
-          "target": "/",
+          "target": "/root",
+          "chmod": "+x"
+        },
+        {
+          "file": "index.html",
+          "target": "/root/nginx-volume",
           "chmod": "+x"
         }
       ]
